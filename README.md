@@ -1,24 +1,40 @@
 # Quiz Culture G
+
 Par Lucas CONSEJO
+
 Ingésup B2B Bordeaux
+
 Le 10/11/2018
+
 lien git : https://github.com/lucasconsejo/Node-JS
 
+
 1) Pour lancer le script : 
+
     quiz -[option]
 
 Liste options : 
+
     -t, --theme, 'Voir les thèmes'
+
     -g, --geography, 'Quiz Géographie'
+
     -m, --music, 'Quiz Musique'
+
     -b, --book, 'Quiz Livre'
+
     -f, --films, 'Quiz Films'
+
     -j, --videoGame, 'Quiz Jeux Video'
+
     -h, --history, 'Quiz Histoire'
+
     -s, --sport' 'Quiz Sport'
+
     -o, --option', 'Voir les options disponibles
 
 2) Description du script :
+
     C'est un quiz Vrai ou Faux de 10 questions.
     Les questions sont récupérés depuis une API.
     L'utilisateur peut répondre au questions en sélectionnant "Vrai" ou "Faux" avec la barre espace pour chaque question.
