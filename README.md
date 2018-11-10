@@ -14,24 +14,23 @@ lien git : https://github.com/lucasconsejo/Node-JS
     quiz -[option]
 
 Liste options : 
+    * -t, --theme, 'Voir les thèmes'
 
-    -t, --theme, 'Voir les thèmes'
+    * -g, --geography, 'Quiz Géographie'
 
-    -g, --geography, 'Quiz Géographie'
+    * -m, --music, 'Quiz Musique'
 
-    -m, --music, 'Quiz Musique'
+    * -b, --book, 'Quiz Livre'
 
-    -b, --book, 'Quiz Livre'
+    * -f, --films, 'Quiz Films'
 
-    -f, --films, 'Quiz Films'
+    * -j, --videoGame, 'Quiz Jeux Video'
 
-    -j, --videoGame, 'Quiz Jeux Video'
+    * -h, --history, 'Quiz Histoire'
 
-    -h, --history, 'Quiz Histoire'
+    * -s, --sport' 'Quiz Sport'
 
-    -s, --sport' 'Quiz Sport'
-
-    -o, --option', 'Voir les options disponibles
+    * -o, --option', 'Voir les options disponibles
 
 2) Description du script :
 
