@@ -13,7 +13,7 @@ class Option {
         console.log(colors.grey('-j')+', --videoGame', '(Quiz Jeux Video)')
         console.log(colors.grey('-h')+', --history', '(Quiz Histoire)')
         console.log(colors.grey('-s')+', --sport', '(Quiz Sport)')
-        console.log(colors.grey('-o')+', --option', '(Voir les options disponibles)\n')
+        console.log(colors.grey('-o')+', --option', '(Voir les options disponibles)\n') 
     }
 }
 

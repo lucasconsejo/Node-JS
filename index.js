@@ -24,7 +24,7 @@ program
   .option('-h, --history', 'Quiz Histoire')
   .option('-s, --sport', 'Quiz Sport')
   .option('-o, --option', 'Voir les options disponibles')
-  .parse(process.argv)
+  .parse(process.argv) 
 
 
 // Lance les fonctions selon l'option choisi par l 'utilisateur
