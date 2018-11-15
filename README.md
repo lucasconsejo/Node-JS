@@ -37,3 +37,4 @@ Les réponses sont affichés à la fin du quiz, ainsi que le score final.
 - inquirer : pour que l'utilisateur puisse choisir "Vrai" ou "Faux".
 - translate : pour traduire les questions anglaise en française.
 - colors : pour mettre des couleurs dans la console.
+- say : pour qu'une voix pose les questions.
