@@ -32,7 +32,6 @@ module.exports.getQuestions = (callback, nb_category) =>{
     axios.get(URL_QUIZ+nb_category+URL_DETAILS)
         .then((response) =>{
             listQuestions = response.data['results']
-            console.log(response.data)
                 
             for(let i = 0; i < listQuestions.length; i++){
                 translateAnswer(i)
