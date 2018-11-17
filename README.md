@@ -4,7 +4,7 @@ Par Lucas CONSEJO
 
 Ingésup B2B Bordeaux
 
-Le 15/11/2018
+Le 17/11/2018
 
 lien git : [lucasconsejo/Node-JS](https://github.com/lucasconsejo/Node-JS)
 
@@ -17,11 +17,8 @@ quiz -[option]
 * -t, --theme, 'Voir les thèmes'
 * -g, --geography, 'Quiz Géographie'
 * -m, --music, 'Quiz Musique'
-* -b, --book, 'Quiz Livre'
-* -f, --films, 'Quiz Films'
 * -j, --videoGame, 'Quiz Jeux Video'
 * -h, --history, 'Quiz Histoire'
-* -s, --sport' 'Quiz Sport'
 * -o, --option', 'Voir les options disponibles
 
 ## Description du script :
@@ -34,6 +31,13 @@ Les réponses sont affichées à la fin du quiz, ainsi que le score final.
 - axios : pour récupérer les données de l'API https://opentdb.com/.
 - commander : pour passer des options.
 - inquirer : pour que l'utilisateur puisse choisir "Vrai" ou "Faux".
-- translate : pour traduire les questions anglaises en française.
+- translate : pour traduire les questions anglaises en françaises.
 - colors : pour mettre des couleurs dans la console.
 - say : pour qu'une voix pose les questions.
+
+## Problèmes rencontrés :
+- L'API fournit des questions en anglais, avec un encodage particulier (J'avais essayé d'utiliser le package 'utf8' mais ça n'a rien changé...).
+- La traduction des questions anglaises en françaises n'est pas correcte pour toutes questions. :/
+- La voix qui pose les questions ne comprend pas les "é" et autres accents.
+- Je n'ai pas trouvé le moyen de stopper la voix qui parle lorsqu'on passe à une autre question (La voix se superpose si on attend la fin de la question (INSUPPORTABLE A ECOUTER --> JE DECONSEILLE D'ESSAYER !)).
+- Je n'ai pas utilisé tous les thèmes proposés par l'API car certains thèmes ne contiennent aucune question sous forme de "Vrai ou Faux".

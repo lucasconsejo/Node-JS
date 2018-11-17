@@ -3,58 +3,43 @@
 // Modules nécessaires
 const program = require('commander')
 
-const Options = require('./Classes/Options')
-const Theme = require('./Classes/Theme')
-const Questions = require('./Classes/Questions')
-const Quiz = require('./Classes/Quiz')
+// Fonctions importées
+const Options = require('./fonctions/Options')
+const Theme = require('./fonctions/Theme')
+const Questions = require('./fonctions/Questions')
+const Quiz = require('./fonctions/Quiz')
 
-let options = new Options()
-let theme = new Theme()
-let questions = new Questions()
-let quiz = new Quiz()
-
+// Conﬁguration des options du programme
 program
   .version('1.0.0')
   .option('-t, --theme', 'Voir les thèmes')
   .option('-g, --geography', 'Quiz Géographie')
   .option('-m, --music', 'Quiz Musique')
-  .option('-b, --book', 'Quiz Livre')
-  .option('-f, --films', 'Quiz Films')
   .option('-j, --videoGame', 'Quiz Jeux Video')
   .option('-h, --history', 'Quiz Histoire')
-  .option('-s, --sport', 'Quiz Sport')
   .option('-o, --option', 'Voir les options disponibles')
   .parse(process.argv) 
 
 
-// Lance les fonctions selon l'option choisi par l 'utilisateur
+// Lance les fonctions selon l'option choisie par l'utilisateur
 if (program.theme){
-    theme.getTheme()
+    Theme.getTheme()
 }
 else if (program.geography){
-    questions.getQuestions(quiz.startQuiz, 22)
+    Questions.getQuestions(Quiz.start, 22)
 }
 else if (program.music){
-    questions.getQuestions(quiz.startQuiz, 12)
-}
-else if (program.book){
-    questions.getQuestions(quiz.startQuiz, 10)
-}
-else if (program.films){
-    questions.getQuestions(quiz.startQuiz, 11)
+    Questions.getQuestions(Quiz.start, 12)
 }
 else if (program.videoGame){
-    questions.getQuestions(quiz.startQuiz, 15)
+    Questions.getQuestions(Quiz.start, 15)
 }
 else if (program.history){
-    questions.getQuestions(quiz.startQuiz, 23)
-}
-else if (program.sport){
-    questions.getQuestions(quiz.startQuiz, 21)
+    Questions.getQuestions(Quiz.start, 23)
 }
 else if (program.options){
-    options.getOptions()
+    Options.getOptions()
 }
 else{
-    console.log("Commande not found")
+    console.log("Option invalide")
 }
