@@ -40,6 +40,6 @@ Les réponses sont affichées à la fin du quiz, ainsi que le score final.
 - La traduction des questions anglaises en françaises n'est pas correcte pour toutes questions. :/
 - La voix qui pose les questions ne comprend pas les "é" et autres accents.
 - Il est possible que la voix ne soit pas la même sur Mac & Windows... J'ai configuré la voix selon la voix installée sur mon OS (Windows).
-C'est donc possible que la voix ne fonctionnent pas sur Mac --> A vérifier.
+C'est donc possible que la voix ne fonctionne pas sur Mac --> A vérifier.
 - Je n'ai pas trouvé le moyen de stopper la voix qui parle lorsqu'on passe à une autre question (La voix se superpose si on attend la fin de la question (**_INSUPPORTABLE A ECOUTER --> JE DECONSEILLE D'ESSAYER !_**)).
 - Je n'ai pas utilisé tous les thèmes proposés par l'API car certains thèmes ne contiennent aucune question sous forme de "Vrai ou Faux".
