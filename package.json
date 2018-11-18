@@ -3,19 +3,29 @@
   "version": "1.0.0",
   "description": "Quiz Culture G",
   "main": "index.js",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "colors": "^1.3.2",
+    "inquirer": "^6.2.0",
+    "say": "^0.15.0",
+    "sqlite3": "^4.0.4",
+    "translate": "^1.0.3"
+  },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasconsejo/Node-JS.git"
+  },
+  "author": "lucasconsejo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasconsejo/Node-JS/issues"
   },
   "bin": {
     "quiz": "./index.js"
   },
-  "author": "Lucas CONSEJO",
-  "license": "ISC",
-  "dependencies": {
-    "colors": "^1.3.2",
-    "commander": "^2.19.0",
-    "inquirer": "^6.2.0",
-    "say": "^0.15.0",
-    "translate": "^1.0.3"
-  }
+  "homepage": "https://github.com/lucasconsejo/Node-JS#readme"
 }
